@@ -1,0 +1,82 @@
+
+html {
+  font-size: 1rem;
+  font-family: 'EB Garamond', serif;
+  background-color: #252a2b;
+  margin: 40px;
+}
+
+body {
+  padding:5rem 0;
+  color:#cadfe3;
+}
+
+main {
+  display:grid;
+  grid-template-columns: 1fr 5fr ;
+  grid-auto-rows:min-content;
+  grid-gap:2rem;
+  width: 90vw;
+  margin: 2 auto;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 10px;
+  color: #cadfe3;
+}
+.box {
+  color: #cadfe3;
+  border-radius: 5px;
+  padding: 5px;
+font-size: 1rem;
+}
+.intro-block {
+  grid-column:1 / 9;
+}
+
+.statement {
+  grid-column:2 / 9;
+}
+
+.projects {
+  grid-column:3 / 3;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:1rem;
+}
+
+h1 {
+  font-size:5rem;
+  font-weight:650;
+  color:#99c0ff;
+  line-height: 1;
+}
+h2 {
+  font-size:2rem;
+  font-weight:400;
+}
+h3 {
+  font-size:2.5rem;
+  font-weight:450;
+  line-height: 3;
+}
+h4 {
+  font-size:1rem;
+}
+
+
+li {
+  font-size: 1.25rem;
+  font-family: 'Times New Roman', sans-serif;
+  line-height: 0.7;
+  padding: .4rem 0;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom:1rem;
+}
