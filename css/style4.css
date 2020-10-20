@@ -1,0 +1,43 @@
+
+html {
+  font-size: 1rem;
+  font-family: 'Times New Roman', serif;
+  background-color: #252a2b;
+  margin: 10px;
+  line-height: 2.5;
+}
+
+body {
+  padding:2rem;
+  color:#cadfe3;
+}
+
+.wrapper {
+  display:grid;
+  grid-template-columns: 2fr 3fr 2fr 3fr;
+  grid-gap: 30px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:1rem;
+}
+
+h1 {
+  font-size:3rem;
+  font-weight:650;
+  color:#99c0ff;
+  line-height: 1;
+}
+h2 {
+  font-size:2rem;
+  font-weight:400;
+}
+h3 {
+  font-size:1.2rem;
+  font-weight:600 ;
+  line-height: 1.5;
+}
+h4 {
+  font-size:1rem;
+}
