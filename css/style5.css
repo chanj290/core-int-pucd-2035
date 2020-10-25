@@ -1,0 +1,47 @@
+
+html {
+  font-size: 1rem;
+  font-family: 'Times New Roman', serif;
+  background-color: #252a2b;
+  margin: 10px;
+  line-height: 2.5;
+}
+
+body {
+  padding:2rem;
+  color:#cadfe3;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-auto-rows: min-content;
+  grid-gap: 3rem;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:1rem;
+}
+
+h1 {
+  font-size:3rem;
+  font-weight:650;
+  color:#99c0ff;
+  line-height: 1;
+}
+h2 {
+  font-size:2rem;
+  font-weight:400;
+  line-height: 1.2
+}
+h3 {
+  font-size:1.2rem;
+  font-weight:600 ;
+  line-height: 1.5;
+}
+h4 {
+  font-size:1rem;
+}

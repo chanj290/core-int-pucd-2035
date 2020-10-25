@@ -1,0 +1,61 @@
+html {
+  font-size: 1rem;
+  font-family: 'Times New Roman', serif;
+  background-color: #252a2b;
+  margin: 10px;
+  line-height: 0.4;
+  column-width: 4vw;
+}
+
+body {
+  padding:2rem;
+  color:#cadfe3;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 6fr;
+    grid-template-rows:2fr 3fr 6fr; 
+    grid-gap: 1rem;
+    max-width: 7vw;
+}
+
+.pull-quote {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.vertical-quote {
+    grid-column: 2/ 4;
+    grid-row: 1/ 3;
+    line-height: 1.2;
+    font-weight: 700;
+    writing-mode: vertical-rl;
+    column-width: 3vw;
+  }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:1rem;
+}
+
+h1 {
+  font-size:4rem;
+  font-weight:650;
+  color:#99c0ff;
+  line-height: 0.4;
+}
+h2 {
+  font-size:4rem;
+  font-weight:400;
+  line-height: 1.2
+}
+h3 {
+  font-size:1.2rem;
+  font-weight:600 ;
+  line-height: 1.5;
+}
+h4 {
+  font-size:5rem;
+}
