@@ -43,20 +43,6 @@ main {
   grid-column:3 / 3;
 }
 
-.item {
-  grid-column:1;
-  border-top: 1px solid #ccc;
-  padding: 1rem 0;
-}
-
-.definition {
-  grid-column:2;
-  border-top: 1px solid #ccc;
-  padding: 1rem 0;
-}
-
-
-
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
   margin-bottom:1rem;
