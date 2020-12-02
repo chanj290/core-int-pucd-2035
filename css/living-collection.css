@@ -5,23 +5,23 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Lora', serif;
-  background-color: #23272e;
+  font-family: 'EB Garamond', serif;
+  background-color: #252a2b;
 }
 
 body {
   padding:5rem 0;
-  color:#e3f4fa;
+  color:#cadfe3;
 }
 
 a {
   text-decoration: underline;
-  color: #d1e8ff;
+  color: #a37ceb;
 }
 
 a:hover {
   text-decoration: none;
-  color: #d1e8ff;
+  color: #bf5df0;
 }
 
 
@@ -55,7 +55,7 @@ img {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'EB Garamond', serif;
   margin-bottom:.5rem;
 }
 
@@ -79,26 +79,26 @@ h4 {
 
 li {
   font-size: 1.25rem;
-  font-family: 'Lora', serif;
+  font-family: 'EB Garamond', serif;
   line-height: 1.5;
   padding: .5rem 0;
 }
 
 .movie-name {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1;
   font-weight:700;
   margin-top:.5rem;
-  color:#d1e8ff;
+  color:#cadfe3;
 }
 
 .date {
-  color:#9ebdff;
+  color:#a37ceb;
 }
 
 
 p {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'EB Garamond', sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
   margin-bottom:1rem;
