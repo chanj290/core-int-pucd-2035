@@ -1,61 +1,51 @@
 
 html {
-  font-size: 1rem;
-  font-family: 'Times New Roman', serif;
+  font-size:2em;
+  font-family: 'Helvetica', sans-serif;
+  font-weight:620;
+  color: #cadfe3;
   background-color: #252a2b;
-  margin: 10px;
-  line-height: 2.5;
-}
-
-body {
-  padding:2rem;
-  color:#cadfe3;
 }
 
 main {
     display: grid;
-    grid-template-columns: repeat(19, 1fr);
-    grid-template-rows: repeat(20, min-content);
-    grid-gap: 2rem;
-    max-width: 20vw;
-    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
-.pull-quote {
-    font-size: 2.25rem;
-    line-height: 1.5;
-    font-weight: 400;
+.intro-block {
+    grid-column: 2;
+	text-align: left;
+	border-style: solid;
+  border-color: #a37ceb;
+  border-width: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+ }
+
+div.a {
+	line-height: 0
 }
 
-.vertical-quote {
-    grid-column: 1 / 9;
-    grid-row: 1 / 11;
-    line-height: 1.2;
-    font-weight: 700;
-    writing-mode: vertical-rl;
-  }
-
-h1, h2, h3, h4, h5 {
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom:1rem;
+div.b {
+	line-height: 0.05
 }
 
-h1 {
-  font-size:6rem;
-  font-weight:650;
-  color:#a37ceb;
-  line-height: 1;
+div.c {
+	line-height: 0.007
 }
-h2 {
-  font-size:4rem;
-  font-weight:400;
-  line-height: 1.2
+
+div.d {
+	line-height: 0.1
 }
-h3 {
-  font-size:1.2rem;
-  font-weight:600 ;
-  line-height: 1.5;
+
+div.e {
+	line-height: 0.2
 }
-h4 {
-  font-size:5rem;
+
+div.f {
+	line-height: 1
 }
