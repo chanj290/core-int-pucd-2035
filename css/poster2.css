@@ -6,12 +6,13 @@ html {
   color: #ffffff;
   line-height: 0.9;
   background-color: #000000;
-
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 .intro-block {
@@ -20,10 +21,10 @@ main {
 	border-style: solid;
   border-color: #ffffff;
   border-width: 40px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 120px;
+  padding-right: 120px;
   writing-mode: vertical-rl;
  }
 
